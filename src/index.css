@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: 'Karla', sans-serif;
+    color: #293264;
+  }
+}
+
+html,
+body {
+  background: #F5F7FB;
+}
+
+#root {
+  max-width: 36rem;
+  padding: 0 1rem;
+  margin: 0 auto;
+}
+
+button {
+  @apply bg-[#4D5B9E] text-white rounded-xl px-6 py-3 text-sm
+}
